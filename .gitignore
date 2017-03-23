@@ -1,11 +1,60 @@
-.idea/
-*.iws
-*.iml
-/out/
-/target/
-.DS_Store*
-ehthumbs.db
-Icon?
+# Windows image file caches
 Thumbs.db
-
-
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+# Windows shortcuts
+*.lnk
+# =========================
+# Operating System Files
+# =========================
+# OSX
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+ *.iml
+compot.iml
+# modules.xml
+# .idea/misc.xml 
+# *.ipr
+.jar
+.class
+.project
+.settings
+.classpath
+*.csv
+*.pdf
+*.log
+*.log.*
+.idea
+*.idea/*
+.metadata
+target
+**/apps/*.zip
+**/bin/*
+**/test-output
+/classes/
+/test-logs/
