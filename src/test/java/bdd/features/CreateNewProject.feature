@@ -9,8 +9,7 @@ Feature:
     And I fill my City "Kyiv" into City field
     And I fill my phone number "+3800000000000" into Phone field
     And I fill my email address "my.email@address" into Email field
-    //And I fill value "field value" into "field_name" field
     And I fill my desired password "equerest" into Password field
     And I set checkbox to show my password
-    And I go next to second project registration page
+   And I go next to second project registration page
     Then I should see form field with "Название проекта" title
