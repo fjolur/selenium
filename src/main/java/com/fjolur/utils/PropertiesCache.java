@@ -2,11 +2,16 @@ package com.fjolur.utils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.lang.invoke.MethodHandles;
 import java.util.Properties;
 import java.util.Set;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class PropertiesCache {
     private final Properties configProp = new Properties();
+
+    private static final Logger LOG = LogManager.getLogger(MethodHandles.lookup().lookupClass());
 
     private PropertiesCache() {
         //Private constructor to restrict new instances
@@ -15,9 +20,10 @@ public class PropertiesCache {
         try {
             configProp.load(in);
         } catch (IOException e) {
-            System.out.println("Cann't read all properties from file. Exception: " + e);
+            LOG.error("Cann't read all properties from file. Exception: " + e);
         }
     }
+
 
     public static PropertiesCache getInstance() {
         return LazyHolder.INSTANCE;
