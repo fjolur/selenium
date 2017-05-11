@@ -1,0 +1,32 @@
+
+20.04.четверг
++++++++++++++++++++++++++++
+аллюр
+
+аннотации
+http://perfect-test.com/index.php/ru/technologies-menu-rus/other-technologies-menu-rus/20-not-categorised-technologies-rus
+------------------------------
+
+advanced interactions
+
+select element, object
+
+actions class
+
+
+--------------------------------
+29 lesson 4/05
+Selenium GRID 
+
+taf testing automation framework
+
+ava -Dwebdriver.chrome.driver=C:\Users\kateryna.makarenko\IdeaProjects\selenium\src\test\resources\chromedriver.exe -jar selenium-server-standalone-3.4.0.jar -role node -nodeConfig nodeConfig.json
+
+----------------------------
+30th lesson 11/05
+
+logging
+ассинхронное логирование данных
+log4j2 - 
+logBack
+JCL - JDK included logging 
